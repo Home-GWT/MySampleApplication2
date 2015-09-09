@@ -1,0 +1,16 @@
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.0//EN"
+        "http://google-web-toolkit.googlecode.com/svn/releases/2.0/distro-source/core/src/gwt-module.dtd">
+<module rename-to="MySampleApplication2">
+
+    <!-- Inherit the core Web Toolkit stuff.                  -->
+    <inherits name='com.google.gwt.user.User'/>
+
+    <!-- Specify the app entry point class.                   -->
+    <entry-point class='com.mySampleApplication2.client.MySampleApplication2'/>
+
+
+    <!-- Specify the app servlets.                   -->
+    <servlet path='/MySampleApplication2Service'
+             class='com.mySampleApplication2.server.MySampleApplication2ServiceImpl'/>
+
+</module>
